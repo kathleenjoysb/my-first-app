@@ -1,0 +1,5 @@
+<!-- <p>Server with ID {{ serverID }} is {{ getServerStatus() }} </p> -->
+
+<!-- added at #39 section 2 attribute directives -->
+<p [ngStyle]="{backgroundColor: getColor()}"
+[ngClass]="{online: serverStatus === 'online'}">Server with ID {{ serverID }} is {{ getServerStatus() }} </p>
